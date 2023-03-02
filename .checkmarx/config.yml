@@ -10,6 +10,6 @@ checkmarx:
       # configure the SAST related configurations this specific project
       sast:
          # configure if this specific project will be run incrementally or will it run a full scan 
-        incremental: 'false'
+        incremental: 'true'
         languageMode: 'multi'
-        engineVerbose: 'true'
+        engineVerbose: 'false'
